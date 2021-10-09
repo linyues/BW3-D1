@@ -4,9 +4,8 @@ import java.util.List;
 
 public interface IDataService {
     Employee getEmployeeByName(Integer id);
-    List<Employee> getEmployee();
+    List<Employee> getEmployeeList();
     String addEmployee(Employee employee);
     String updateEmployee(Integer id,Employee employee);
-    String deleteEmploee(Integer id);
-
+    String deleteEmployee(Integer id);
 }
